@@ -26,7 +26,7 @@ The three main items in blue are the three repos you can find here on [wcma](htt
 
    This is an example app, that shows how a developer may interact with the [API](https://github.com/wcmaart/api) and display the results.
 
-### Technology choices
+## Technology choices
 
 In the above overview we've used general terms for the parts that are external to our three main repositories, they are in turn;
 
@@ -72,3 +72,7 @@ You should also set up a local version of ElasticSearch and Kibana to store any 
 Once that is set up you should follow the instructions on the [dashboard](https://github.com/wcmaart/dashboard) to start consuming data, and then follow the instructions on the [API](https://github.com/wcmaart/api) to expose the data as a handy GraphQL endpoint.
 
 If you want to test the endpoint finally clone and run the collection.
+
+## Issues and Projects
+
+General issues that span all parts of the project just be added in [Issues](https://github.com/wcmaart/tricma/issues) and tracked in the [Project](https://github.com/wcmaart/tricma/projects/1). For example things like "Should we move the datastore to [SQlite](https://www.sqlite.org/index.html)?" would live here because both the [dashboard](https://github.com/wcmaart/dashboard) and the [API](https://github.com/wcmaart/api) are involved. If the decision to move was made then we'd place that as two individual tasks on each repo.
